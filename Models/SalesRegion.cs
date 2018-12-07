@@ -24,5 +24,6 @@ namespace SalesAppEF.Models
         public virtual ObservableListSource<SalesPerson> People { get; set; }
         /*public virtual ICollection<SalesPerson> People { get; set; } 
         This is enough when doing web apps, but since there's more involved this ObservableListSource method and class are required. */
+        public virtual ObservableListSource<Sale> Sales { get; set; }
     }
 }
